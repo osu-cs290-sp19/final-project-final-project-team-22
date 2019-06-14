@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>Overwatch</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.runtime.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="/style.css" media="screen">
+    <script src="/index.js" charset="utf-8" defer></script>
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="img-container">
+        <img class="Overwatch-logo" src="http://i.imgur.com/YZ4w2ey.png"/>
+        <img class="Overwatch-logo2" src="http://i.imgur.com/IF0dVuY.png"/>
+      </div>
+    </header>
+
+    <div class = "leftAndRight">
+      <img class="leftPicture" src="https://gamepedia.cursecdn.com/overwatch_gamepedia/8/81/Tracer-portrait.png?version=66835685f51847f8399378bc89067609"/>
+      <img class="rightPicture" src="https://gamepedia.cursecdn.com/overwatch_gamepedia/4/4c/Widowmaker-portrait.png?version=019720e80b20411ab84b8089314a7959"/>
+    </div>
+
+    <div>
+      <p id="box" class="box"></p>
+      <input type="text" id="txt" />
+      <button class = "danmu" onclick="send()">Submit</button>
+    </div>
+
+    <main class="Damage-page">
+      <div class="title-container">
+        <h1>Damage Heroes</h1>
+      </div>
+
+      <div class="heroes-container">
+
+        <section class="heroes-card">
+          <div class="img-container">
+            <a href = "/Damage-heroes/Ashe"><img class="heroesPhoto" src="https://d1u1mce87gyfbn.cloudfront.net/hero/ashe/hero-select-portrait.png" /></a>
+          </div>
+          <div class="heroes-name">
+            Ashe
+          </div>
+        </section>
+
+        <section class="heroes-card">
+          <div class="img-container">
+            <a href = "/Damage-heroes/Bastion"><img class="heroesPhoto" src="https://d1u1mce87gyfbn.cloudfront.net/hero/bastion/hero-select-portrait.png" /></a>
+          </div>
+          <div class="heroes-name">
+            Bastion
+          </div>
+        </section>
+
+        <section class="heroes-card">
+          <div class="img-container">
+            <a href = "/Damage-heroes/Doomfist"><img class="heroesPhoto" src="https://d1u1mce87gyfbn.cloudfront.net/hero/doomfist/hero-select-portrait.png" /></a>
+          </div>
+          <div class="heroes-name">
+            Doomfist
+          </div>
+        </section>
+
+        <section class="heroes-card">
+          <div class="img-container">
+            <a href = "/Damage-heroes/Genji"><img class="heroesPhoto" src="https://d1u1mce87gyfbn.cloudfront.net/hero/genji/hero-select-portrait.png" /></a>
+          </div>
+          <div class="heroes-name">
+            Genji
+          </div>
+        </section>
+
+        <section class="heroes-card">
+          <div class="img-container">
+            <a href = "/Damage-heroes/Hanzo"><img class="heroesPhoto" src="https://d1u1mce87gyfbn.cloudfront.net/hero/hanzo/hero-select-portrait.png" /></a>
+          </div>
+          <div class="heroes-name">
+            Hanzo
+          </div>
+        </section>
+
+        <section class="heroes-card">
+          <div class="img-container">
+            <a href = "/Damage-heroes/Junkrat"><img class="heroesPhoto" src="https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/hero-select-portrait.png" /></a>
+          </div>
+          <div class="heroes-name">
+            Junkrat
+          </div>
+        </section>
+
+        <section class="heroes-card">
+          <div class="img-container">
+            <a href = "/Damage-heroes/Mccree"><img class="heroesPhoto" src="https://d1u1mce87gyfbn.cloudfront.net/hero/mccree/hero-select-portrait.png" /></a>
+          </div>
+          <div class="heroes-name">
+            Mccree
+          </div>
+        </section>
+
+        <section class="heroes-card">
+          <div class="img-container">
+            <a href = "/Damage-heroes/Mei"><img class="heroesPhoto" src="https://d1u1mce87gyfbn.cloudfront.net/hero/mei/hero-select-portrait.png" /></a>
+          </div>
+          <div class="heroes-name">
+            Mei
+          </div>
+        </section>
+
+        <section class="heroes-card">
+          <div class="img-container">
+            <a href = "/Damage-heroes/Pharah"><img class="heroesPhoto" src="https://d1u1mce87gyfbn.cloudfront.net/hero/pharah/hero-select-portrait.png" /></a>
+          </div>
+          <div class="heroes-name">
+            Pharah
+          </div>
+        </section>
+
+        <section class="heroes-card">
+          <div class="img-container">
+            <a href = "/Damage-heroes/Reaper"><img class="heroesPhoto" src="https://d1u1mce87gyfbn.cloudfront.net/hero/reaper/hero-select-portrait.png" /></a>
+          </div>
+          <div class="heroes-name">
+            Reaper
+          </div>
+        </section>
+
+        <section class="heroes-card">
+          <div class="img-container">
+            <a href = "/Damage-heroes/Soldier-76"><img class="heroesPhoto" src="https://d1u1mce87gyfbn.cloudfront.net/hero/soldier-76/hero-select-portrait.png" /></a>
+          </div>
+          <div class="heroes-name">
+            Soldier-76
+          </div>
+        </section>
+
+        <section class="heroes-card">
+          <div class="img-container">
+            <a href = "/Damage-heroes/Sombra"><img class="heroesPhoto" src="https://d1u1mce87gyfbn.cloudfront.net/hero/sombra/hero-select-portrait.png" /></a>
+          </div>
+          <div class="heroes-name">
+            Sombra
+          </div>
+        </section>
+
+        <section class="heroes-card">
+          <div class="img-container">
+            <a href = "/Damage-heroes/Symmetra"><img class="heroesPhoto" src="https://d1u1mce87gyfbn.cloudfront.net/hero/symmetra/hero-select-portrait.png" /></a>
+          </div>
+          <div class="heroes-name">
+            Symmetra
+          </div>
+        </section>
+
+        <section class="heroes-card">
+          <div class="img-container">
+            <a href = "/Damage-heroes/Torbjorn"><img class="heroesPhoto" src="https://d1u1mce87gyfbn.cloudfront.net/hero/torbjorn/hero-select-portrait.png" /></a>
+          </div>
+          <div class="heroes-name">
+            Torbjorn
+          </div>
+        </section>
+
+        <section class="heroes-card">
+          <div class="img-container">
+            <a href = "/Damage-heroes/Tracer"><img class="heroesPhoto" src="https://d1u1mce87gyfbn.cloudfront.net/hero/tracer/hero-select-portrait.png" /></a>
+          </div>
+          <div class="heroes-name">
+            Tracer
+          </div>
+        </section>
+
+        <section class="heroes-card">
+          <div class="img-container">
+            <a href = "/Damage-heroes/Widowmaker"><img class="heroesPhoto" src="https://d1u1mce87gyfbn.cloudfront.net/hero/widowmaker/hero-select-portrait.png" /></a>
+          </div>
+          <div class="heroes-name">
+            Widowmaker
+          </div>
+        </section>
+
+
+      </div>
+    </main>
+
+
+  </body>
+</html>
