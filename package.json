@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/osu-cs290-sp19/.git"
+    "url": "git+https://github.com/osu-cs290-sp19/final-project-final-project-team-22"
   },
   "author": "Group22",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/osu-cs290-sp19/"
+    "url": "https://github.com/osu-cs290-sp19/final-project-final-project-team-22"
   },
-  "homepage": "https://github.com/osu-cs290-sp19/",
+  "homepage": "https://github.com/osu-cs290-sp19/final-project-final-project-team-22",
   "dependencies": {
     "express": "^4.17.0",
     "express-handlebars": "^3.1.0",
