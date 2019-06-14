@@ -1,0 +1,11 @@
+<main class="support-page">
+      <div class="title-container">
+        <h1>{{type}} Heroes</h1>
+      </div>
+
+      <div class="heroes-container">
+        {{#each hero}}
+          {{> selectCard}}
+        {{/each}}
+      </div>
+</main>
